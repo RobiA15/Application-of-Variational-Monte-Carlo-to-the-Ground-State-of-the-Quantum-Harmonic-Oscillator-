@@ -94,7 +94,7 @@ def variance(array, mean):
 
 #Function to calculate the force as the derivative of energy
 def forces(avg_Oalphas, avg_eloc, avg_otes, avg_dle):
-    return -2.0 * (avg_Oalphas*avg_eloc - avg_otes) #+ avg_dle
+    return -2.0 * (avg_Oalphas*avg_eloc - avg_otes) + avg_dle
 
 #Function to graph the force
 def graph(all_iterations,all_alphas, energies_in_respect_to_alpha, forces_in_respect_to_alpha, all_stderr):
