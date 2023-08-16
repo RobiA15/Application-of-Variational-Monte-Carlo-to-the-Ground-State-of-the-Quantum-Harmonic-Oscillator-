@@ -1,2 +1,2 @@
 # Application-of-Variational-Monte-Carlo-to-the-Ground-State-of-the-Quantum-Harmonic-Oscillator-
-A python algorithm to apply to calculate the energy of the ground state QHO. 
+This is a generic Python variational Monte Carlo, which has been applied to find the ground state energy of the Quantum-Harmonic-Oscillator.
